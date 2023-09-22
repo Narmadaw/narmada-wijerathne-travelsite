@@ -6,34 +6,106 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <title>Travel Site - Home</title>
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/landing.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
 </head>
 <body>
     <header class="header">
-       <nav class="nav"> <!-- styling the navbar using flexbox -->
-            <ul class="nav__list">
-                <li class="nav__item nav__item--pushleft"><a class="nav__link" href="../index.html"><h2 class="logo-text">Travel Site</h2></a></li>
-                <li class="nav__item"><a class="nav__link nav__link--active" href="../index.html"><h3 class="menu-text">Home</h3></a></li>
-                <li class="nav__item"><a class="nav__link" href="../pages/hawaii.html"><h3 class="menu-text">Hawaii</h3></a></li>
-                <li class="nav__item"><a class="nav__link" href="../pages/iceland.html"><h3 class="menu-text">Iceland</h3></a></li>
-                <li class="nav__item"><a class="nav__link" href="../pages/greece.html"><h3 class="menu-text">Greece</h3></a></li>
-            </ul>
-        </nav>
+        <div class="header__wrapper">
+            <a class="header__logo-text" href="./index.html">Travel Site</a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="./index.html" class="nav__link nav__link--active">Home</a></li>
+                    <li class="nav__item"><a href="../pages/hawaii.html" class="nav__link">Hawaii</a></li>
+                    <li class="nav__item"><a href="../pages/iceland.html" class="nav__link">Iceland</a></li>
+                    <li class="nav__item"><a href="../pages/greece.html" class="nav__link">Greece</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="hero">
-        <div class="hero__divtext">
-            <h1>Travelling Comes With Endless Discoveries</h1>
-            <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now</p>
-            <button>Get Started</button>
+    <section class="hero-banner">
+        <div class="hero-banner__wrapper">
+            <div class="hero-banner__left">
+                <h1 class="hero-banner__title">Travelling Comes With Endless Discoveries</h1>
+                <p class="hero-banner__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <button class="hero-banner__btn">Get Started</button>
+            </div>
+            <div class="hero-banner__right">
+                <img class="hero-banner__img"   src="./assests/Images/hero.png" alt="">
+            </div>
+          
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="container__wrapper">
+            <div class="container__title">
+                <h2 class="cont-title">Recommendations</h2>
+            </div>
+            <div class="card">
+                <div class="card__item">
+                    <img class="card__item--img-size" src="./assests/Images/hawaii.jpg" alt="">
+                    <div class="">
+                        <p class="card__item--tit">Hawaii</p>
+                    </div>
+                </div>
+                <div class="card__item card__item--iceland">
+                    <img src="./assests/Images/iceland.jpg" alt="" class="card__item--img-size">
+                    
+                    <div class="">
+                        <p class="card__item--tit">Iceland</p>
+                    </div>
+                </div>
+                <div class="card__item card__item--greece">
+                    <img src="./assests/Images/greece.jpg" alt="" class="card__item--img-size">
+                    <div class="">
+                        <p class="card__item--tit">Greece</p>
+                    </div>
+                </div>
+            </div>
+               
 
         </div>
-        <div class="hero__image">
-            <img class="img" src="./assests/Images/hero.png" alt="hero image">
+      </section>
+
+      <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__card">
+                <h3 class="footer-title">Contact</h3>
+                <p>EMAIL</p>
+                <p>info@travelsite.com</p>
+            </div>
+            <div class="">
+                <h3 class="footer-title">Hours</h3>
+                <div class="footer__card-2">
+                    <div class="item">
+                        <p>MONDAY - FRIDAY</p>
+                        <p>9.00 AM - 5.00 PM</p>
+                    </div>
+                    <div class="item">
+                        <p>SATURDAY</p>
+                        <p>10.00 AM - 4.00 PM</p>
+                    </div>
+                    <div class="item">
+                        <p>SUNDAY</p>
+                        <p>Closed</p>
+                    </div> 
+                </div>
+                
+            </div>
+
+            <div class="">
+                <h3 class="footer-title">Social</h3>
+                <a href="https://www.instagram.com/"><img class="social__icon" src="./assests/Icons/icon-instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/"><img class="social__icon" src="./assests/Icons/icon-facebook.png" alt="facebook"></a>
+                <a href="https://www.twitter.com/"><img class="social__icon" src="./assests/Icons/icon-twitter.png" alt="yelp"></a>
+                
+            </div>
+            <div class="footer__card"></div>
+
         </div>
-    </section>
-
-
-    
+      </footer>
 </body>
 </html>
+
