@@ -1,0 +1,6 @@
+.container{
+    background-image: url("../assests/Images/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
