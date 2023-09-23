@@ -24,7 +24,6 @@
 
 .hero-banner__right{
     max-width: 40%;
-    
 }
 
 .hero-banner__title{
@@ -54,59 +53,49 @@
     margin-top: 25px;
 }
 
-.container{
+/* recommendation section */
+
+.recommendations{
     background-color: #FFFFFF;
-    
 }
 
-.container__wrapper{
+.recommendations_wrapper{
     max-width: 1284px;
     margin: 0 auto;
 }
 
-.container__title{
-    color: #335576;
-    font-size: 18px;
+.cont-title{
+  color: #335576;
+  font-weight: 700;
+  font-size: 32px;
 }
 
-.card{
+.container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-evenly;
-    
-
+    justify-content:space-between;
     margin: 0 auto;
-    padding: 50px;
+    /* padding: 20px; */
+    
+    width: 1100px;
 }
 
-.card__item{
+.container__card{
     position: relative;
-    
     width: 350px;
-    height: 560px;
+    height: 500px;
+    
+    background-position: center;
     background-size: cover;
+    border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    
 }
 
-.card__item:hover{
-   opacity: 0.5;
-}
+.card-title{
+ 
 
-
-.card__item--img-size{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    
-    
-}
-
-
-.card__item--tit{
   position: absolute;
   bottom: 8px;
   right: 16px;
@@ -115,5 +104,23 @@
   font-size: 32px;
   margin-bottom: 13px;
   margin-right: 18px;
+
 }
+
+.container__card:hover{
+    opacity: 0.5
+}
+
+.container__card--card-1{
+    background-image: url("../assests/Images/hawaii.jpg");
+}
+
+.container__card--card-2{
+    background-image: url("../assests/Images/iceland.jpg");
+}
+
+.container__card--card-3{
+    background-image: url("../assests/Images/greece.jpg");
+}
+
 
