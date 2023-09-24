@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Travel Site - Home</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/form.css">
+    
+</head>
+<body>
+    <header class="header">
+            <nav class="nav"> 
+                <a class="nav__logo-text" href="../index.html">Travel Site</a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/hawaii.html" class="nav__link">Hawaii</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/iceland.html" class="nav__link">Iceland</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/greece.html" class="nav__link">Greece</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="main">
+        <form> 
+        <div class="contact-form">
+             
+
+                
+                <h1 class="title">Contact Form</h1>
+                <select class ="textbox" name="Destinations">
+                    <option value="select">Select destination</option>
+                    <option value="hawaii">Hawaii</option>
+                    <option value="iceland">Iceland</option>
+                    <option value="greece">Greece</option>
+                    
+                  </select>
+                <input name="name" type="text" class="textbox" placeholder="Name" />   
+                <input name="email" type="text" class="textbox" placeholder="Email" />
+                <textarea name="text" class="textbox" placeholder="Message"></textarea>
+                <input class="btn-submt" type="submit" value="SUBMIT"/>
+              
+        </div>
+    </form>
+    </main>
+
+   
+
+   
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-container__section ">
+                <h3 class="footer-title">Contact</h3>
+                <h4 class="footer-subtitle">EMAIL</h4>
+                <p class="footer-text">info@travelsite.com</p>
+            </div>
+            <div class="footer-container__section footer-container__section--2">
+                <h3 class="footer-title">Hours</h3>
+                <div class="footer-subsection">
+                    <div class="footer-subsection__item">
+                        <h4 class="footer-subtitle">MONDAY - FRIDAY</h4>
+                        <p class="footer-text">9.00 AM - 5.00 PM</p>
+                    </div>
+                    <div class="footer-subsection__item">
+                        <h4 class="footer-subtitle">SATURDAY</h4>
+                        <p class="footer-text">10.00 AM - 4.00 PM</p>
+                    </div>
+                    <div class="footer-subsection__item">
+                        <h4 class="footer-subtitle">SUNDAY</h4>
+                        <p class="footer-text">Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-container__section">
+                <h3 class="footer-title">Socials</h3>
+                <div class="social-sec">
+                    <a class="social-link" href="https://www.instagram.com/">
+                        <img 
+                            class="social__icon" 
+                            src="../assests/Icons/icon-instagram.png" 
+                            alt="instagram">
+                    </a>
+    
+                    <a class="social-link" href="https://www.facebook.com/">
+                        <img    
+                            class="social__icon" 
+                            src="../assests/Icons/icon-facebook.png" 
+                            alt="facebook">
+                    </a>
+                    <a class="social-link" href="https://www.twitter.com/">
+                        <img    
+                            class="social__icon" 
+                            src="../assests/Icons/icon-twitter.png" 
+                            alt="yelp">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
