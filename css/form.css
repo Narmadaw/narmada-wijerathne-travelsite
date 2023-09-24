@@ -1,0 +1,60 @@
+body{
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.contact-form{
+    width:26.25rem; 
+    margin:3.125rem auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.title{
+    display:inline-block;
+    text-align: center;
+    margin: 0 0 1.875rem 0;
+    color: #335576;
+    font-size: 2rem;
+}
+
+.textbox {
+    color:gray;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: #FEFAF5;
+    border:1px solid #CC6666;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    
+  }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+    font-family: Verdana;
+  } 
+
+  .btn-submt{
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    padding: 20px;
+    margin-bottom: 15px;
+    width:100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .btn-submt:hover{
+    opacity: 0.75;
+  }
+  
+  
