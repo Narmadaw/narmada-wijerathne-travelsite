@@ -1,20 +1,18 @@
-.itinerary{
-    
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
-    height: 45rem;
+.itinerary__destination{
+   background-size:cover;
+   background-position: center;
+   height: 43rem;
 }
 
-.itinerary--hawaii{
+.itinerary__destination--hawaii{
     background-image: url("../assests/Images/hawaii.jpg");
 }
 
-.itinerary--iceland{
+.itinerary__destination--iceland{
     background-image: url("../assests/Images/iceland.jpg");
 }
 
-.itinerary--greece{
+.itinerary__destination--greece{
     background-image: url("../assests/Images/greece.jpg");
 }
 
@@ -29,24 +27,24 @@
 .container{
     display: flex;
     justify-content: center;
-    padding: 2rem 8rem;
+    margin: auto 7.125rem;
     
 }
 
 .container_card{
     list-style: none;
-    line-height: 1.5rem;
-    width: 15rem;
-    height: 20rem;
+    line-height: 2.3rem;
+    width: 15.9rem;
+    height: 24.5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-inline-start: 0;
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 1rem 0rem 1rem;
     background-color: #fff;
-    
-    margin: 0.5rem;
+    margin: 1.5rem;
     border-radius: 0.313rem;
+    background-position: center;
 }
 
 .card-title{

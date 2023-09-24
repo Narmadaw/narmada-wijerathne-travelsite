@@ -1,6 +1,6 @@
 .hero-banner{
     background-image: url(../assests/Images/hero.png);
-    height: 30rem;
+    height: 28rem;
     background-repeat: no-repeat;
     background-size: 35% auto;
     background-position: 90%;
@@ -10,7 +10,7 @@
 
 .text{
     display: inline-block;
-    margin: 6.5rem 0 0.5rem 6rem;
+    margin: 5.5rem 0 0.5rem 6rem;
 }
 
 .hero-banner__title{
@@ -38,6 +38,10 @@
     font-weight: 300;
 }
 
+.form-btn:hover{
+    opacity: 0.5;
+}
+
 /* recommendation section */
 
 .recommendations{
@@ -47,7 +51,7 @@
 .cont-title{
     color: #335576;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: inline-block;
     margin: 3rem 0 0.5rem 6rem;
   }
@@ -55,15 +59,17 @@
 .container{
     display: flex;
     justify-content: center;
+    margin: 0 10.125rem 2rem 10.125rem;
 }
 
 .container__card{
     position: relative;
     width: 15.9rem;
     height: 24.5rem;
-    margin: 2.5rem;
+    margin: 1.5rem;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 0.313rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
@@ -91,7 +97,7 @@
   right: 1rem;
   color: white;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0.8rem;
   margin-right: 1.125;
 }
