@@ -10,9 +10,8 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-wrapper">
-            <a class="header__logo-text" href="./index.html"><h2 class="header-text">Travel Site</h2></a>
-            <nav class="nav">
+            <nav class="nav"> 
+                <a class="nav__logo-text" href="./index.html">Travel Site</a>
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="./index.html" class="nav__link nav__link--active">Home</a>
@@ -28,80 +27,75 @@
                     </li>
                 </ul>
             </nav>
-        </div>
     </header>
 
     <section class="hero-banner">
-        <div class="hero-banner__wrapper">
-            <div class="hero-banner__left">
-                <h1 class="hero-banner__title">Travelling Comes With Endless Discoveries</h1>
-                <p class="hero-banner__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-                <button class="hero-banner__btn">Get Started</button>
-            </div>
-            <div class="hero-banner__right">
-                <img 
-                    class="hero-banner__img"   
-                    src="./assests/Images/hero.png" 
-                    alt="hero banner">
-            </div>
+        <div class="text">
+            <h1 class="hero-banner__title">Travelling Comes With Endless Discoveries</h1>
+            <p class="hero-banner__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+            <button class="hero-banner__btn">Get Started</button>
         </div>
-      </section>
+    </section>
 
-    <div class="recommendations">
-        <div class="recommendations_wrapper">
-            <h2 class="cont-title">Recommendations</h2>
-            <div class="container">
-                <div class="container__card container__card--card-1">
+    <section class="recommendation">
+        <h2 class="cont-title">Recommendations</h2>
+        <div class="container">
+
+            <a href="./pages/hawaii.html" class="">
+                <div class="container__card container__card--hawaii">
                     <h3 class="card-title">Hawaii</h3>
                 </div>
-                <div class="container__card container__card--card-2">
+            </a>
+
+            <a href="./pages/iceland.html" class="">
+                <div class="container__card container__card--iceland">
                     <h3 class="card-title">Iceland</h3>
                 </div>
-                <div class="container__card container__card--card-3">
+            </a>
+
+            <a href="./pages/greece.html" class="">
+                <div class="container__card container__card--greece">
                     <h3 class="card-title">Greece</h3>
                 </div>
-            </div>
+            </a>
         </div>
-    </div>
+    </section>
 
-    <section class="footer">
-        <div class="container-footer">
-            <div class="container-footer__item container-footer__item--item-1">
-                <h2 class="item-text-1">Contact</h2>
-                <div class="bla">
-                    <div class="bla-bla">
-                        <h3 class="item-text-2">EMAIL</h3>
-                        <p class="item-text-3">info@travelsite.com<p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-container__section ">
+                <h3 class="footer-title">Contact</h3>
+                <h4 class="footer-subtitle">EMAIL</h4>
+                <p class="footer-text">info@travelsite.com</p>
+            </div>
+            <div class="footer-container__section footer-container__section--2">
+                <h3 class="footer-title">Hours</h3>
+                <div class="footer-subsection">
+                    <div class="footer-subsection__item">
+                        <h4 class="footer-subtitle">MONDAY - FRIDAY</h4>
+                        <p class="footer-text">9.00 AM - 5.00 PM</p>
+                    </div>
+                    <div class="footer-subsection__item">
+                        <h4 class="footer-subtitle">SATURDAY</h4>
+                        <p class="footer-text">10.00 AM - 4.00 PM</p>
+                    </div>
+                    <div class="footer-subsection__item">
+                        <h4 class="footer-subtitle">SUNDAY</h4>
+                        <p class="footer-text">Closed</p>
                     </div>
                 </div>
             </div>
-            <div class="container-footer__item container-footer__item--item-3">
-                <h2 class="item-text-1">Hours</h2>
-                <div class="item__bla">
-                    <div class="item__bla-bla">
-                        <h3 class="item-text-2">MONDAY - FRIDAY</h3>
-                        <p class="item-text-3">9.00 AM - 5.00 PM</p>
-                    </div>
-                    <div class="item__bla-bla">
-                        <h3 class="item-text-2">SATURDAY</h3>
-                        <p class="item-text-3">10.00 AM - 4.00 PM</p>
-                    </div>
-                    <div class="item__bla-bla">
-                        <h3 class="item-text-2">SUNDAY</h3>
-                        <p class="item-text-3">Closed</p>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="container-footer__item container-footer__item--item-2">
-                <h2 class="item-text-1">Social</h2>
-                <div class="social-icons">
+
+            <div class="footer-container__section">
+                <h3 class="footer-title">Socials</h3>
+                <div class="social-sec">
                     <a class="social-link" href="https://www.instagram.com/">
                         <img 
                             class="social__icon" 
                             src="./assests/Icons/icon-instagram.png" 
                             alt="instagram">
                     </a>
+    
                     <a class="social-link" href="https://www.facebook.com/">
                         <img    
                             class="social__icon" 
@@ -117,7 +111,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 </body>
 </html>
 

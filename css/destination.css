@@ -1,6 +1,66 @@
-.container{
-    background-image: url("../assests/Images/hawaii.jpg");
+.itinerary{
+    
     background-size: cover;
-    background-position: center;
-    height: 800px;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 45rem;
+}
+
+.itinerary--hawaii{
+    background-image: url("../assests/Images/hawaii.jpg");
+}
+
+.itinerary--iceland{
+    background-image: url("../assests/Images/iceland.jpg");
+}
+
+.itinerary--greece{
+    background-image: url("../assests/Images/greece.jpg");
+}
+
+.itinerary-title{
+    display: inline-block;
+    margin: 6.5rem 0 0.5rem 6rem;
+    font-weight: 900;
+    font-size: 4rem;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 8rem;
+    
+}
+
+.container_card{
+    list-style: none;
+    line-height: 1.5rem;
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-inline-start: 0;
+    padding: 0 1rem 2rem 1rem;
+    background-color: #fff;
+    
+    margin: 0.5rem;
+    border-radius: 0.313rem;
+}
+
+.card-title{
+
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 1rem 0.5rem ;
+    border-bottom: 2px solid black; 
+}
+
+.card-item{
+    background-color: #fefaf5;
+    margin: 0 0.5rem 1rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.5rem 0;
 }

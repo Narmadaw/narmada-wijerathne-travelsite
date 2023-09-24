@@ -1,56 +1,41 @@
 .hero-banner{
-    padding: 100px 0;
+    background-image: url(../assests/Images/hero.png);
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: 90%;
     background-color: #FEFAF5;
-    
+    padding-right: 2rem;
 }
 
-.hero-banner__wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1284px;
-    margin: 0 auto;
-}
-
-.hero-banner__img{
-    
-    width: 100%;
-}
-
-.hero-banner__left{
-    width: 70%;
-}
-
-.hero-banner__right{
-    max-width: 40%;
+.text{
+    display: inline-block;
+    margin: 6.5rem 0 0.5rem 6rem;
 }
 
 .hero-banner__title{
-    margin: 0;
-    text-align: left;
     width: 70%;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #335576;
 }
 
 .hero-banner__text{
-    margin-top: 25px;
-    width: 80%;
-    text-align: left;
+    margin-top: 1.563rem;
+    width: 62%;
     color: #335576;
 }
 
 .hero-banner__btn{
     background-color: #DB7A4E;
     border-style: none;
-    padding: 10px;
-    width: 180px;
-    font-size: 20px;
+    padding: 0.4rem;
+    width: 10rem;
+    font-size: 1rem;
     color: white;
-    border-radius: 25px;
-    margin-top: 25px;
+    border-radius: 1.563rem;
+    margin-top: 0.625rem;
+    font-weight: 300;
 }
 
 /* recommendation section */
@@ -59,68 +44,58 @@
     background-color: #FFFFFF;
 }
 
-.recommendations_wrapper{
-    max-width: 1284px;
-    margin: 0 auto;
-}
-
 .cont-title{
-  color: #335576;
-  font-weight: 700;
-  font-size: 32px;
-}
+    color: #335576;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 3rem 0 0.5rem 6rem;
+  }
 
 .container{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
-    margin: 0 auto;
-    /* padding: 20px; */
-    
-    width: 1100px;
+    justify-content: center;
 }
 
 .container__card{
     position: relative;
-    width: 350px;
-    height: 500px;
-    
+    width: 15.9rem;
+    height: 24.5rem;
+    margin: 2.5rem;
     background-position: center;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-}
-
-.card-title{
- 
-
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  color: white;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 13px;
-  margin-right: 18px;
-
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
 }
 
 .container__card:hover{
     opacity: 0.5
 }
 
-.container__card--card-1{
+.container__card--hawaii{
     background-image: url("../assests/Images/hawaii.jpg");
 }
 
-.container__card--card-2{
+.container__card--iceland{
     background-image: url("../assests/Images/iceland.jpg");
 }
 
-.container__card--card-3{
+.container__card--greece{
     background-image: url("../assests/Images/greece.jpg");
 }
+
+.card-title{
+  position: absolute;
+  bottom: 0rem;
+  right: 1rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  margin-right: 1.125;
+}
+
+
 
 
