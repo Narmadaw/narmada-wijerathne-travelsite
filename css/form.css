@@ -51,10 +51,10 @@ body{
     border: none;
     font-size: 1rem;
     font-weight: 700;
+    color: white;
+
   }
 
-  .btn-submt:hover{
-    opacity: 0.75;
-  }
+
   
   
