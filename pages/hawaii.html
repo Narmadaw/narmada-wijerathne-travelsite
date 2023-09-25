@@ -4,61 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <title>Travel Site - Hawaii</title>
+    <title>Hawaii</title>
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/destination.css" class="css">
     
 </head>
 <body>
     <header class="header">
-        <nav class="nav"> 
-            <a class="nav__logo-text" href="../index.html">Travel Site</a>
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="../index.html" class="nav__link">Home</a>
-                </li>
-                <li class="nav__item">
-                    <a href="../pages/hawaii.html" class="nav__link nav__link--active">Hawaii</a>
-                </li>
-                <li class="nav__item">
-                    <a href="../pages/iceland.html" class="nav__link">Iceland</a>
-                </li>
-                <li class="nav__item">
-                    <a href="../pages/greece.html" class="nav__link">Greece</a>
-                </li>
-            </ul>
-        </nav>
-</header>
+        <!-- navigation bar -->
+            <nav class="nav"> 
+                <a class="nav__logo-text" href="../index.html">Travel Site</a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <!-- set the current page using a modifire -->
+                        <a href="../pages/hawaii.html" class="nav__link nav__link--active">Hawaii</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/iceland.html" class="nav__link">Iceland</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/greece.html" class="nav__link">Greece</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
 
+
+    <!-- itenery section -- itinerary activities listed in a unorderd list -->
    <section class="itinerary">
     <div class="itinerary__destination itinerary__destination--hawaii">
         <h2 class="itinerary-title">Hawaii</h2>
         <div class="container">
-            <ul class="container_card">
-                <li class="card-title">Friday</li>
-                <li class="card-item">Breakfast</li>
-                <li class="card-item">Lunch</li>
-                <li class="card-item">Dinner</li>
-                <li class="card-item">Snorkeling</li>
+            <ul class="card">
+                <li class="card__title">Friday</li>
+                <li class="card__item">Breakfast</li>
+                <li class="card__item">Lunch</li>
+                <li class="card__item">Dinner</li>
+                <li class="card__item">Snorkeling</li>
             </ul>
-            <ul class="container_card">
-                <li class="card-title">Saturday</li>
-                <li class="card-item">Breakfast</li>
-                <li class="card-item">Lunch</li>
-                <li class="card-item">Dinner</li>
-                <li class="card-item">Snorkeling</li>
+            <ul class="card">
+                <li class="card__title">Saturday</li>
+                <li class="card__item">Breakfast</li>
+                <li class="card__item">Lunch</li>
+                <li class="card__item">Dinner</li>
+                <li class="card__item">Snorkeling</li>
             </ul>
-            <ul class="container_card">
-                <li class="card-title">Sunday</li>
-                <li class="card-item">Breakfast</li>
-                <li class="card-item">Lunch</li>
-                <li class="card-item">Dinner</li>
-                <li class="card-item">Snorkeling</li>
+            <ul class="card">
+                <li class="card__title">Sunday</li>
+                <li class="card__item">Breakfast</li>
+                <li class="card__item">Lunch</li>
+                <li class="card__item">Dinner</li>
+                <li class="card__item">Snorkeling</li>
             </ul>
         </div>
     </div>
    </section>
-   
+
+   <!-- footer section -->
    <footer class="footer">
     <div class="footer-container">
         <div class="footer-container__section ">

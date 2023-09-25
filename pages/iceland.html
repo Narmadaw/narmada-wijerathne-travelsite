@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <title>Travel Site - Iceland</title>
+    <title>Iceland</title>
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/destination.css" class="css">
     
 </head>
 <body>
+
+    
     <header class="header">
+        <!-- navigation bar -->
         <nav class="nav"> 
             <a class="nav__logo-text" href="../index.html">Travel Site</a>
             <ul class="nav__list">
@@ -21,39 +24,41 @@
                     <a href="../pages/hawaii.html" class="nav__link">Hawaii</a>
                 </li>
                 <li class="nav__item">
-                    <a href="../pages/iceland.html" class="nav__link nav__link--active">Iceland</a>
+                    <!-- set the current page using a modifire -->
+                    <a href="../pages/iceland.html" class="nav__link nav__link--active">Iceland</a>  
                 </li>
                 <li class="nav__item">
                     <a href="../pages/greece.html" class="nav__link">Greece</a>
                 </li>
             </ul>
         </nav>
-</header>
+    </header>
 
+    <!-- 3 Days of Itinerary activities -->
    <section class="itinerary">
     <div class="itinerary__destination itinerary__destination--iceland">
         <h2 class="itinerary-title">Iceland</h2>
             <div class="container">
-                <ul class="container_card">
-                    <li class="card-title">Friday</li>
-                    <li class="card-item">Breakfast</li>
-                    <li class="card-item">Lunch</li>
-                    <li class="card-item">Dinner</li>
-                    <li class="card-item">Hiking</li>
+                <ul class="card">
+                    <li class="card__title">Friday</li>
+                    <li class="card__item">Breakfast</li>
+                    <li class="card__item">Lunch</li>
+                    <li class="card__item">Dinner</li>
+                    <li class="card__item">Hiking</li>
                 </ul>
-                <ul class="container_card">
-                    <li class="card-title">Saturday</li>
-                    <li class="card-item">Breakfast</li>
-                    <li class="card-item">Lunch</li>
-                    <li class="card-item">Dinner</li>
-                    <li class="card-item">Hiking</li>
+                <ul class="card">
+                    <li class="card__title">Saturday</li>
+                    <li class="card__item">Breakfast</li>
+                    <li class="card__item">Lunch</li>
+                    <li class="card__item">Dinner</li>
+                    <li class="card__item">Hiking</li>
                 </ul>
-                <ul class="container_card">
-                    <li class="card-title">Sunday</li>
-                    <li class="card-item">Breakfast</li>
-                    <li class="card-item">Lunch</li>
-                    <li class="card-item">Dinner</li>
-                    <li class="card-item">Hiking</li>
+                <ul class="card">
+                    <li class="card__title">Sunday</li>
+                    <li class="card__item">Breakfast</li>
+                    <li class="card__item">Lunch</li>
+                    <li class="card__item">Dinner</li>
+                    <li class="card__item">Hiking</li>
                 </ul>
             </div>
         </div>
@@ -88,23 +93,13 @@
             <h3 class="footer-title">Socials</h3>
             <div class="social-sec">
                 <a class="social-link" href="https://www.instagram.com/">
-                    <img 
-                        class="social__icon" 
-                        src="../assests/Icons/icon-instagram.png" 
-                        alt="instagram">
+                    <img class="social__icon" src="../assests/Icons/icon-instagram.png" alt="instagram">
                 </a>
-
                 <a class="social-link" href="https://www.facebook.com/">
-                    <img    
-                        class="social__icon" 
-                        src="../assests/Icons/icon-facebook.png" 
-                        alt="facebook">
+                    <img class="social__icon" src="../assests/Icons/icon-facebook.png" alt="facebook">
                 </a>
                 <a class="social-link" href="https://www.twitter.com/">
-                    <img    
-                        class="social__icon" 
-                        src="../assests/Icons/icon-twitter.png" 
-                        alt="twiter">
+                    <img class="social__icon" src="../assests/Icons/icon-twitter.png" alt="twiter">
                 </a>
             </div>
         </div>

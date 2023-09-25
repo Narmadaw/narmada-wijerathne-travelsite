@@ -1,3 +1,10 @@
+body{
+    font-family: verdana;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  /* hero section */
 .hero-banner{
     background-image: url(../assests/Images/hero.png);
     height: 28rem;
@@ -8,19 +15,19 @@
     padding-right: 2rem;
 }
 
-.text{
+.hero-text{
     display: inline-block;
     margin: 5.5rem 0 0.5rem 6rem;
 }
 
-.hero-banner__title{
+.hero-text__title{
     width: 70%;
     font-weight: 900;
     font-size: 2.5rem;
     color: #335576;
 }
 
-.hero-banner__text{
+.hero-text__text{
     margin-top: 1.563rem;
     width: 62%;
     color: #335576;

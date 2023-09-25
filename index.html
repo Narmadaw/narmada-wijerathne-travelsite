@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+
     <header class="header">
+        <!-- navigation bar -->
             <nav class="nav"> 
                 <a class="nav__logo-text" href="./index.html">Travel Site</a>
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="./index.html" class="nav__link nav__link--active">Home</a>
-                    </li>
+                        <!-- set the current page using a modifire -->
+                        <a href="./index.html" class="nav__link nav__link--active">Home</a></li>
                     <li class="nav__item">
                         <a href="../pages/hawaii.html" class="nav__link">Hawaii</a>
                     </li>
@@ -29,14 +31,19 @@
             </nav>
     </header>
 
-    <section class="hero-banner">
-        <div class="text">
-            <h1 class="hero-banner__title">Travelling Comes With Endless Discoveries</h1>
-            <p class="hero-banner__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-            <a class="form-btn" href="./pages/contact-form.html"><button class="hero-banner__btn">Get Started</button></a>
+ <!-- hero section -->
+    <section class="hero">
+        <div class="hero-banner">
+            <div class="hero-text">
+                <h1 class="hero-text__title">Travelling Comes With Endless Discoveries</h1>
+                <p class="hero-text__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <a class="form-btn" href="./pages/contact-form.html"><button class="hero-banner__btn">Get Started</button></a>
+            </div>
         </div>
     </section>
 
+    <!-- this section has three cards for each destination and 
+        'a' anchor tag used to link the appropriate page -->
     <section class="recommendation">
         <h2 class="cont-title">Recommendations</h2>
         <div class="container">
@@ -61,6 +68,7 @@
         </div>
     </section>
 
+    <!-- footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-container__section">
@@ -86,12 +94,19 @@
                 </div>
             </div>
 
+            <!-- social links section -->
             <div class="footer-container__section">
                 <h3 class="footer-title">Socials</h3>
                 <div class="social-sec">
-                    <a class="social-link" href="https://www.instagram.com/"><img class="social__icon" src="./assests/Icons/icon-instagram.png" alt="instagram"></a>
-                    <a class="social-link" href="https://www.facebook.com/"><img class="social__icon" src="./assests/Icons/icon-facebook.png" alt="facebook"></a>
-                    <a class="social-link" href="https://www.twitter.com/"><img class="social__icon" src="./assests/Icons/icon-twitter.png" alt="twitter"></a>
+                    <a class="social-link" href="https://www.instagram.com/">
+                        <img class="social__icon" src="./assests/Icons/icon-instagram.png" alt="instagram">
+                    </a>
+                    <a class="social-link" href="https://www.facebook.com/">
+                        <img class="social__icon" src="./assests/Icons/icon-facebook.png" alt="facebook">
+                    </a>
+                    <a class="social-link" href="https://www.twitter.com/">
+                        <img class="social__icon" src="./assests/Icons/icon-twitter.png" alt="twitter">
+                    </a>
                 </div>
             </div>
         </div>
